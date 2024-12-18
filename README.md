@@ -124,3 +124,16 @@ You can build the project using Maven. The following commands are useful:
 *   `mvn install`: Builds the project and creates a JAR file in the `target` directory.
 *   `mvn spring-boot:run`: Runs the application in development mode.
 
+
+sample testcases:
+
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/6e5411ff-7a0f-4d6d-8b11-af8c787e6a11" />
+
+<img width="1022" alt="image" src="https://github.com/user-attachments/assets/c570b328-d39b-467e-a0d3-69bfdd811169" />
+
+<img width="1034" alt="image" src="https://github.com/user-attachments/assets/e71005c1-0733-4de4-99e9-6d65efa0916e" />
+
+<img width="1022" alt="image" src="https://github.com/user-attachments/assets/df64ae92-f3ff-479c-bc06-b0e97242d9e1" />
+
+
+
