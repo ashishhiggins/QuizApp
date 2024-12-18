@@ -16,8 +16,13 @@ This project implements a simple quiz application using Spring Boot. Users can t
 *   Spring Web MVC
 *   Swagger Open API (documentation)
 *   H2 Database (in-memory database for development)
+*   Docker (for containerization)
 
 ## Running the application
+
+You can run the application in two ways: directly using Maven or using Docker.
+
+### Running with Maven
 
 1.  Ensure you have Java 11 or later installed.
 2.  Clone or download the project.
@@ -26,6 +31,19 @@ This project implements a simple quiz application using Spring Boot. Users can t
 5.  Run `mvn spring-boot:run` to start the application.
 
 The application will be available on port `8080` by default. You can access the Swagger documentation at `http://localhost:8080/swagger-ui/`.
+
+### Running with Docker
+
+A pre-built Docker image is available on Docker Hub: `ashishhiggins/quizapp:latest`.
+
+1.  Ensure you have Docker installed.
+2.  Run the following command in your terminal:
+
+    ```bash
+    docker run -p 8080:8080 ashishhiggins/quizapp:latest
+    ```
+
+This will start the application in a Docker container, mapping port 8080 on your host machine to port 8080 in the container. You can then access the application and Swagger documentation at `http://localhost:8080/`.
 
 ## API Documentation and Sample Responses
 
@@ -106,10 +124,3 @@ You can build the project using Maven. The following commands are useful:
 *   `mvn install`: Builds the project and creates a JAR file in the `target` directory.
 *   `mvn spring-boot:run`: Runs the application in development mode.
 
-## Contributing
-
-We welcome contributions to this project. Feel free to fork the repository and submit pull requests with your improvements.
-
-## License
-
-This project is licensed under [insert your preferred license here]. Please see the `LICENSE` file for details.
