@@ -24,7 +24,7 @@ You can run the application in two ways: directly using Maven or using Docker.
 
 ### Running with Maven
 
-1.  Ensure you have Java 11 or later installed.
+1.  Ensure you have Java 21.
 2.  Clone or download the project.
 3.  Open a terminal in the project directory.
 4.  Run `mvn clean install` to build the application.
